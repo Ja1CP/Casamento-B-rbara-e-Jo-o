@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ee">
+  <meta name="description" content="Lista de presentes do casamento de Bárbara e João Vitor.">
+  <title>Bárbara & João Vitor | Nosso Casamento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-frame">
+    <header class="hero">
+      <div class="corner corner-tl">❧</div><div class="corner corner-tr">❧</div>
+      <p class="eyebrow">COM A BÊNÇÃO DE DEUS E DE NOSSAS FAMÍLIAS</p>
+      <div class="monogram" aria-hidden="true">B<span>&</span>J</div>
+      <p class="quote">“Acima de tudo, porém, revistam-se do amor,<br>que é o elo perfeito.”</p>
+      <p class="verse">Colossenses 3:14</p>
+      <h1>Bárbara <span>&</span> João Vitor</h1>
+      <div class="gold-rule"><span>✦</span></div>
+      <p class="date">11 de dezembro de 2026 · às 15h30</p>
+      <p class="location">Por Amor Recepções · Extremoz, Rio Grande do Norte</p>
+      <p class="intro">Estamos preparando com muito carinho o início da nossa vida a dois.<br>Escolha um presente para fazer parte dessa história.</p>
+      <a class="primary-link" href="#presentes">Ver lista de presentes</a>
+      <div class="corner corner-bl">❧</div><div class="corner corner-br">❧</div>
+    </header>
+
+    <main>
+      <section class="section-heading" id="presentes">
+        <p class="eyebrow">UM GESTO DE CARINHO</p>
+        <h2>Lista de Presentes</h2>
+        <div class="gold-rule"><span>✦</span></div>
+        <p class="section-intro">Cada presente representa um pedacinho do nosso novo lar. Muito obrigado por celebrar esse momento conosco!</p>
+      </section>
+
+      <div class="toolbar">
+        <label class="search-label" for="search">Encontrar um presente</label>
+        <input id="search" type="search" placeholder="Ex.: jogo de cama, cafeteira..." autocomplete="off">
+        <p id="list-status" class="status-message" role="status">Carregando a lista de presentes…</p>
+      </div>
+
+      <section id="gift-grid" class="gift-grid" aria-live="polite"></section>
+
+      <section class="closing">
+        <div class="closing-flower" aria-hidden="true">❀</div>
+        <p>Com amor,</p>
+        <h2>Bárbara & João Vitor</h2>
+        <p class="closing-note">Será uma alegria compartilhar esse dia com você.</p>
+      </section>
+    </main>
+    <footer>
+      <span>Feito com carinho para o nosso casamento</span>
+      <span>11 · 12 · 2026</span>
+    </footer>
+  </div>
+
+  <dialog id="reserve-dialog" class="reserve-dialog">
+    <form id="reserve-form">
+      <button type="button" class="dialog-close" id="close-dialog" aria-label="Fechar">×</button>
+      <p class="eyebrow">UM PRESENTE ESPECIAL</p>
+      <h2 id="dialog-gift-title">Reservar presente</h2>
+      <p id="dialog-gift-price" class="dialog-price"></p>
+      <p class="dialog-help">Informe seu nome para reservar este presente. A reserva dura 2 horas. Depois, siga as instruções de pagamento que serão apresentadas.</p>
+      <label for="guest-name">Seu nome</label>
+      <input id="guest-name" name="guest-name" type="text" minlength="2" maxlength="100" required autocomplete="name" placeholder="Nome e sobrenome">
+      <p id="dialog-message" class="status-message" role="status"></p>
+      <button class="primary-link submit-button" type="submit" id="confirm-reservation">Confirmar reserva</button>
+      <p class="fine-print">A reserva não realiza o pagamento automaticamente.</p>
+    </form>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
