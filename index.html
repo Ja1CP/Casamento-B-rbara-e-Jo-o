@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bárbara &amp; João Vitor | Nosso Casamento</title>
+<meta name="description" content="Lista de presentes do casamento de Bárbara e João Vitor.">
+<meta name="theme-color" content="#fbf9f4">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="hero"><div class="frame">
+  <div class="std">SAVE <i>the</i> DATE</div>
+  <h1 class="script" id="noiva"></h1>
+  <div class="amp">&amp;</div>
+  <h1 class="script" id="noivo"></h1>
+  <p class="date" id="quando"></p>
+  <p class="place" id="onde"></p>
+  <p class="verse" id="verso"></p>
+  <div class="btns">
+    <a class="btn" href="#presentes">Ver lista de presentes</a>
+    <a class="btn sec" id="mapa" target="_blank" rel="noopener">Como chegar</a>
+  </div>
+</div></header>
+
+<section class="list" id="presentes">
+  <div class="head">
+    <small>Um gesto de carinho</small>
+    <h2>Lista de Presentes</h2>
+    <p>Cada presente representa um pedacinho do nosso novo lar. Escolha um item e pague por Pix, com o valor já preenchido. Muito obrigado por celebrar esse momento conosco!</p>
+  </div>
+  <div class="tools">
+    <input type="search" id="busca" placeholder="Encontrar um presente…" aria-label="Buscar presente">
+    <div class="chips" id="chips"></div>
+  </div>
+  <div id="lista"></div>
+</section>
+
+<footer>
+  <div class="script" id="rodape"></div>
+  <p>Será uma alegria compartilhar esse dia com você.</p>
+</footer>
+
+<dialog id="dlg">
+  <small class="eyebrow">Um presente especial</small>
+  <h2 id="dTitulo"></h2>
+  <div id="dValor" class="price"></div>
+  <div id="livre" hidden><input type="number" id="valorLivre" inputmode="decimal" min="1" step="0.01" placeholder="Digite o valor em R$"></div>
+  <div id="qr"></div>
+  <textarea id="code" readonly aria-label="Código Pix Copia e Cola"></textarea>
+  <div class="row"><button id="copiar">Copiar código Pix</button><button class="sec" id="fechar">Fechar</button></div>
+  <small>No app do seu banco: Pix → Pix Copia e Cola (ou ler QR Code). O valor já vem preenchido. Depois, se puder, avise os noivos qual presente você escolheu 💛</small>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
