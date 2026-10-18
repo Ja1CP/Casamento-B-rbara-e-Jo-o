@@ -6,7 +6,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:"Playfair Displ
 .script{font-family:"Pinyon Script","Snell Roundhand",cursive;color:var(--red);font-weight:400;line-height:1.05;margin:0}
 .frame{position:relative;border:2px solid var(--gold);margin:16px;padding:48px 20px;text-align:center}
 .frame::before{content:"";position:absolute;inset:6px;border:1px solid var(--gold);opacity:.5;pointer-events:none}
-.hero .frame{min-height:calc(100vh - 32px);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.hero .frame{min-height:calc(100vh - 32px);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .std{font-size:clamp(1.3rem,5vw,1.9rem);color:var(--red);margin-bottom:34px}.std i{font-size:.6em;margin:0 .15em}
 .hero .script{font-size:clamp(3.6rem,16vw,6.6rem)}
 .amp{display:flex;align-items:center;gap:14px;width:min(340px,80%);color:var(--gold);font-size:1.7rem;margin:4px 0}
@@ -46,3 +46,24 @@ textarea{width:100%;height:80px;font:12px monospace;background:var(--bg);color:v
 .row{display:flex;gap:8px;margin-top:10px}.row button{flex:1;padding:12px 10px}
 footer{text-align:center;color:var(--muted);padding:10px 20px 48px}
 footer .script{font-size:2.8rem}
+
+/* ---- Melhorias visuais ---- */
+body{background-image:radial-gradient(circle at 15% 8%,rgba(196,160,82,.09),transparent 38%),radial-gradient(circle at 88% 92%,rgba(127,154,106,.09),transparent 40%);background-attachment:fixed}
+.conteudo{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;padding:28px 0}
+.flor{position:absolute;width:clamp(130px,30vw,240px);height:auto;pointer-events:none;z-index:0}
+.flor.tl{top:-10px;left:-10px}.flor.br{bottom:-10px;right:-10px;transform:rotate(180deg)}
+.canto{position:absolute;width:clamp(36px,8vw,60px);color:var(--gold);pointer-events:none}
+.canto.tr{top:12px;right:12px;transform:scaleX(-1)}.canto.bl{bottom:12px;left:12px;transform:scaleY(-1)}
+.mono{display:flex;align-items:baseline;justify-content:center;gap:2px;width:96px;height:96px;margin:0 auto 22px;border:1px solid var(--gold);border-radius:50%;box-shadow:0 0 0 5px var(--bg),0 0 0 6px var(--gold);align-content:center;padding-top:20px;font-family:"Pinyon Script",cursive;font-size:2.6rem;color:var(--red);line-height:1}
+.mono i{font-family:"Playfair Display",serif;font-style:normal;font-size:1rem;color:var(--gold);margin:0 1px}
+.amp{font-family:"Playfair Display",serif}
+.contagem{font-family:Inter,sans-serif;font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 22px}
+.divisor{display:flex;align-items:center;gap:16px;max-width:360px;margin:8px auto 0;color:var(--gold)}
+.divisor::before,.divisor::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}.divisor::after{transform:scaleX(-1)}
+.cat::before{content:"❦";color:var(--gold);font-style:normal;font-size:1.1rem}
+.card{transition:transform .25s,box-shadow .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(139,17,22,.10);border-color:var(--gold)}
+@keyframes subir{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.conteudo>*{animation:subir .9s ease both}
+.conteudo>*:nth-child(2){animation-delay:.1s}.conteudo>*:nth-child(3){animation-delay:.2s}.conteudo>*:nth-child(4){animation-delay:.3s}.conteudo>*:nth-child(5){animation-delay:.4s}.conteudo>*:nth-child(n+6){animation-delay:.5s}
+@media (prefers-reduced-motion:reduce){.conteudo>*{animation:none}html{scroll-behavior:auto}}

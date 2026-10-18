@@ -9,6 +9,10 @@
   $("onde").textContent = DADOS.local + " · " + DADOS.cidade + ", " + DADOS.estado;
   $("verso").textContent = DADOS.versiculo + " (" + DADOS.referencia + ")";
   $("mapa").href = DADOS.mapa;
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const diaCasamento = new Date(DADOS.dataISO); diaCasamento.setHours(0, 0, 0, 0);
+  const dias = Math.round((diaCasamento - hoje) / 864e5);
+  $("contagem").textContent = dias > 1 ? "Faltam " + dias + " dias" : dias === 1 ? "É amanhã!" : dias === 0 ? "Hoje é o grande dia!" : "Obrigado por celebrar conosco";
   $("rodape").textContent = DADOS.noiva + " & " + DADOS.noivo;
 
   // Pix (BR Code estático com valor)

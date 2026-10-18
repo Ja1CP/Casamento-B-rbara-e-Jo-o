@@ -8,6 +8,7 @@ const DADOS = {
   noivo: "João Vitor",
   data: "11 de dezembro de 2026",
   horario: "15h30",
+  dataISO: "2026-12-11T15:30:00-03:00", // usada na contagem regressiva (ano-mês-diaThora)
   local: "Por Amor Recepções",
   endereco: "Av. Litorânea, nº 1209",
   cidade: "Extremoz",
