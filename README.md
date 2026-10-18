@@ -9,11 +9,12 @@ Site estático (sem servidor) com capa, lista de presentes e Pix com valor já p
 | `index.html` | Estrutura da página | Raramente |
 | `estilo.css` | Cores, fontes e layout | Só para mudar o visual |
 | `app.js` | Funcionamento (filtros, Pix, QR Code) | Não |
-| `assets/` | Rosas (`rosas-tl.png`, `rosas-br.png`), monograma (`monograma.png`) e a pasta `fonts` | Só para trocar imagens ou fonte |
+| `assets/fonts/` | Arquivos da fonte Sloop Script Pro (opcional) | Só ao adicionar a fonte |
+| `originais/` | Cópias das imagens (rosas e monograma). **Não precisa subir**: elas já estão embutidas no `estilo.css` | Não |
 
 ## Como publicar/atualizar pelo navegador (sem instalar nada)
 1. Entre no repositório no GitHub: https://github.com/ja1cp/Casamento-B-rbara-e-Jo-o
-2. Clique em **Add file → Upload files** e arraste os 4 arquivos (`index.html`, `estilo.css`, `dados.js`, `app.js`) **e a pasta `assets`** (rosas, monograma e fontes). Se já existirem com o mesmo nome, serão substituídos.
+2. Clique em **Add file → Upload files** e arraste os 4 arquivos (`index.html`, `estilo.css`, `dados.js`, `app.js`) (as imagens das rosas e o monograma já vão dentro do `estilo.css`; a pasta `assets/fonts` só é necessária se for usar a Sloop Script Pro). Se já existirem com o mesmo nome, serão substituídos.
 3. Role até o fim e clique em **Commit changes**.
 4. Em **Settings → Pages**, confira que a origem é a branch `main` (pasta `/root`).
 5. Aguarde 1 a 2 minutos e abra o site. Se não mudar, atualize com **Ctrl+F5** (no celular, limpe o cache ou abra em aba anônima).
