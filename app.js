@@ -6,7 +6,8 @@
   $("noiva").textContent = DADOS.noiva;
   $("noivo").textContent = DADOS.noivo;
   $("quando").textContent = DADOS.data + " · às " + DADOS.horario;
-  $("onde").textContent = DADOS.local + " · " + DADOS.cidade + ", " + DADOS.estado;
+  $("onde").innerHTML = "<span>" + DADOS.cidade + "</span><b></b><span>" + DADOS.estado + "</span>";
+  $("local").textContent = DADOS.local + " · " + DADOS.endereco;
   $("verso").textContent = DADOS.versiculo + " (" + DADOS.referencia + ")";
   $("mapa").href = DADOS.mapa;
   const hoje = new Date(); hoje.setHours(0, 0, 0, 0);

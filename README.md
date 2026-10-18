@@ -9,10 +9,11 @@ Site estático (sem servidor) com capa, lista de presentes e Pix com valor já p
 | `index.html` | Estrutura da página | Raramente |
 | `estilo.css` | Cores, fontes e layout | Só para mudar o visual |
 | `app.js` | Funcionamento (filtros, Pix, QR Code) | Não |
+| `assets/` | Imagens das rosas da capa (`rosas-tl.png`, `rosas-br.png`) | Só para trocar as flores |
 
 ## Como publicar/atualizar pelo navegador (sem instalar nada)
 1. Entre no repositório no GitHub: https://github.com/ja1cp/Casamento-B-rbara-e-Jo-o
-2. Clique em **Add file → Upload files** e arraste os 4 arquivos (`index.html`, `estilo.css`, `dados.js`, `app.js`). Se já existirem com o mesmo nome, serão substituídos.
+2. Clique em **Add file → Upload files** e arraste os 4 arquivos (`index.html`, `estilo.css`, `dados.js`, `app.js`) **e a pasta `assets`** (com as duas imagens das rosas). Se já existirem com o mesmo nome, serão substituídos.
 3. Role até o fim e clique em **Commit changes**.
 4. Em **Settings → Pages**, confira que a origem é a branch `main` (pasta `/root`).
 5. Aguarde 1 a 2 minutos e abra o site. Se não mudar, atualize com **Ctrl+F5** (no celular, limpe o cache ou abra em aba anônima).
