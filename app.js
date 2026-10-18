@@ -83,11 +83,13 @@
       n += its.length;
       const h = document.createElement("div"); h.className = "cat"; h.textContent = cat.nome; lista.appendChild(h);
       const g = document.createElement("div"); g.className = "grid";
-      its.forEach(([nome, preco]) => {
+      its.forEach(([nome, preco, icone, foto]) => {
         const d = document.createElement("div"); d.className = "card";
-        d.innerHTML = '<h3></h3><div class="price' + (preco ? "" : " free") + '">' +
+        d.innerHTML = '<div class="thumb"></div><h3></h3><div class="price' + (preco ? "" : " free") + '">' +
           (preco ? brl(preco) : "Valor à sua escolha") + '</div><button>Presentear</button>';
         d.querySelector("h3").textContent = nome;
+        const th = d.querySelector(".thumb"); th.textContent = icone || "🎁";
+        if (foto) { const im = new Image(); im.alt = nome; im.loading = "lazy"; im.onerror = () => im.remove(); im.src = foto; th.appendChild(im); }
         d.querySelector("button").onclick = () => abrir(nome, preco);
         g.appendChild(d);
       });

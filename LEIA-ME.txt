@@ -1,8 +1,4 @@
-Coloque aqui os arquivos da fonte Sloop Script Pro, com estes nomes:
-
-  SloopScriptPro.woff2   (preferido, o mais leve)
-  SloopScriptPro.woff    (opcional)
-  SloopScriptPro.otf ou SloopScriptPro.ttf   (alternativa)
-
-Enquanto os arquivos não estiverem aqui, o site usa a fonte Pinyon Script no lugar.
-A licença da Sloop Script Pro precisa permitir uso em sites (webfont).
+Coloque aqui as fotos dos presentes (JPG ou PNG, de preferência com menos de 200 KB cada).
+Depois, em dados.js, informe o caminho no 4º campo do item, por exemplo:
+["Air Fryer", 550, "🍟", "assets/presentes/air-fryer.jpg"]
+Use nomes de arquivo sem espaço nem acento, tudo em minúsculas.
