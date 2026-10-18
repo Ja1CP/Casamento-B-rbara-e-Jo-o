@@ -1,0 +1,8 @@
+Coloque aqui os arquivos da fonte Sloop Script Pro, com estes nomes:
+
+  SloopScriptPro.woff2   (preferido, o mais leve)
+  SloopScriptPro.woff    (opcional)
+  SloopScriptPro.otf ou SloopScriptPro.ttf   (alternativa)
+
+Enquanto os arquivos não estiverem aqui, o site usa a fonte Pinyon Script no lugar.
+A licença da Sloop Script Pro precisa permitir uso em sites (webfont).
