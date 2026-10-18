@@ -71,8 +71,5 @@ const CATEGORIAS = [
     ["Máquina de Lavar Louça", 4000],
     ["Máquina de Lavar Roupa", 3500],
     ["Geladeira", 4500]
-  ]},
-  { nome: "Valor livre", itens: [
-    ["Contribuição livre (qualquer valor)", null]
   ]}
 ];

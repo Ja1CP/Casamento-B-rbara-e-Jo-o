@@ -9,11 +9,11 @@ Site estático (sem servidor) com capa, lista de presentes e Pix com valor já p
 | `index.html` | Estrutura da página | Raramente |
 | `estilo.css` | Cores, fontes e layout | Só para mudar o visual |
 | `app.js` | Funcionamento (filtros, Pix, QR Code) | Não |
-| `assets/` | Imagens das rosas da capa (`rosas-tl.png`, `rosas-br.png`) | Só para trocar as flores |
+| `assets/` | Rosas (`rosas-tl.png`, `rosas-br.png`), monograma (`monograma.png`) e a pasta `fonts` | Só para trocar imagens ou fonte |
 
 ## Como publicar/atualizar pelo navegador (sem instalar nada)
 1. Entre no repositório no GitHub: https://github.com/ja1cp/Casamento-B-rbara-e-Jo-o
-2. Clique em **Add file → Upload files** e arraste os 4 arquivos (`index.html`, `estilo.css`, `dados.js`, `app.js`) **e a pasta `assets`** (com as duas imagens das rosas). Se já existirem com o mesmo nome, serão substituídos.
+2. Clique em **Add file → Upload files** e arraste os 4 arquivos (`index.html`, `estilo.css`, `dados.js`, `app.js`) **e a pasta `assets`** (rosas, monograma e fontes). Se já existirem com o mesmo nome, serão substituídos.
 3. Role até o fim e clique em **Commit changes**.
 4. Em **Settings → Pages**, confira que a origem é a branch `main` (pasta `/root`).
 5. Aguarde 1 a 2 minutos e abra o site. Se não mudar, atualize com **Ctrl+F5** (no celular, limpe o cache ou abra em aba anônima).
@@ -32,3 +32,6 @@ Atenção: não apague aspas `"`, vírgulas `,` nem colchetes `[ ]`. Se o site f
 ## Limites
 - Sem servidor, o site não marca presentes como "já escolhidos" nem avisa quem pagou: acompanhe pelo extrato do Pix.
 - Arquivos antigos do site anterior (se houver) podem ser apagados para evitar confusão.
+
+## Fonte Sloop Script Pro
+A fonte cursiva do site é a **Sloop Script Pro** (nomes e títulos); o restante usa **Playfair Display** (carregada do Google Fonts). A Sloop Script Pro é uma fonte paga e não vem incluída: coloque os arquivos em `assets/fonts/` com o nome `SloopScriptPro.woff2` (ou `.woff`, `.otf`, `.ttf`) e envie ao GitHub junto com o resto. Sua licença precisa permitir uso em sites. Se só tiver `.otf`/`.ttf`, funciona, mas fica mais pesado; o ideal é converter para `.woff2`. Sem os arquivos, o site usa a Pinyon Script no lugar.
