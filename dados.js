@@ -31,7 +31,7 @@ const DADOS = {
 const CATEGORIAS = [
   { nome: "Casa e Lavanderia", itens: [
     ["Tábua de Passar Roupas", 150, "👔", "tabua-de-passar.jpg"],
-    ["Ferro de Passar Roupas", 200, "👕"], "ferro_de_passar.jpg"],
+    ["Ferro de Passar Roupas", 200, "👕", "ferro_de_passar.jpg"],
     ["Varal de Chão", 150, "🧺"],
     ["Aspirador de Pó Robô", 750, "🤖"],
     ["Mop Electrolux", 150, "🧹"],
