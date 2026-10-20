@@ -107,3 +107,6 @@ footer .script{font-size:3.4rem}
 .galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;max-width:1040px;margin:0 auto;padding:0 20px 20px}
 .galeria figure{margin:0}.galeria figcaption{text-align:center;color:var(--muted);font-size:.85rem;margin-top:8px}
 .galeria .fbox{aspect-ratio:1/1}
+
+#cartao{display:block;margin-top:14px;text-align:center}
+#cartao[hidden]{display:none}

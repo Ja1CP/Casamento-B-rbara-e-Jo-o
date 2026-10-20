@@ -106,3 +106,12 @@ const HISTORIA = {
     { foto: "assets/fotos/foto-6.jpg", legenda: "Legenda da foto" }
   ]
 };
+
+/* PAGAMENTO NO CARTÃO (Mercado Pago)
+   Crie um "Link de pagamento" no Mercado Pago para cada presente (com o valor do item)
+   e cole o link abaixo, no formato  "Nome exato do presente": "link",
+   Só aparece o botão "Pagar no cartão" nos presentes que tiverem link aqui. */
+const LINKS_CARTAO = {
+  // "Air Fryer": "https://mpago.la/xxxxxxx",
+  // "Geladeira": "https://mpago.la/yyyyyyy",
+};

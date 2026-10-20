@@ -30,6 +30,11 @@ Site estático (sem servidor): capa, lista de presentes com Pix e a página "Nos
 ## Como mudar a lista de presentes depois
 No GitHub, abra `dados.js`, clique no lápis, edite e faça **Commit changes**. Não apague aspas `"`, vírgulas `,` nem colchetes `[ ]`. Se o site ficar em branco, houve erro de digitação: reverta pela aba **History**.
 
+## Pagamento no cartão (Mercado Pago)
+1. No app ou no site do Mercado Pago, crie um **Link de pagamento** para cada presente, com o valor do item (e um título como "Presente de casamento: Air Fryer").
+2. Cole cada link em `dados.js`, no bloco `LINKS_CARTAO`, assim: `"Air Fryer": "https://mpago.la/xxxxxxx",` (o nome precisa ser igual ao da lista).
+3. Faça o commit. O botão "Pagar no cartão" aparece só nos presentes que têm link.
+
 ## Pix
 - A chave fica em `dados.js` (`pix.chave`) e **fica visível para quem abrir o código do site**. Se não quiser expor o CPF, crie uma chave aleatória no app do banco e use essa.
 - Teste sempre: gere o Pix de um item barato e confira valor e recebedor no app do banco antes de divulgar.

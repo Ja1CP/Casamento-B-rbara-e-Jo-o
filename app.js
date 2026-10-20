@@ -47,6 +47,8 @@
   }
   function abrir(nome, preco) {
     $("dTitulo").textContent = nome;
+    const lk = (typeof LINKS_CARTAO !== "undefined" && LINKS_CARTAO[nome]) || "";
+    $("cartao").hidden = !lk; $("cartao").href = lk || "#";
     $("dValor").textContent = preco ? brl(preco) : "";
     $("livre").hidden = !!preco; inp.value = "";
     render(preco || 0); dlg.showModal();
