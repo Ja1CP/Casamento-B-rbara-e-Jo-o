@@ -76,7 +76,7 @@ footer .script{font-size:3.4rem}
 
 /* Fotos dos presentes */
 .thumb{position:relative;aspect-ratio:4/3;overflow:hidden;display:grid;place-items:center;font-size:3rem;line-height:1;background:linear-gradient(135deg,#fffdf8,#f6efe0);border:1px solid var(--line)}
-.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff}
 .card h3{padding:0 6px}
 
 /* Página Nossa história */
