@@ -41,7 +41,7 @@ const CATEGORIAS = [
     ["Espelho Grande para quarto", 200, "🪞", "espelho_quarto.jpg"],
     ["Duas Mesas de Cabeceira", 400, "🛏️", "mesa_de_cabeceira.webp"],
     ["Jogo de Cama", 200, "🛏️", "jogo_de_cama.jpg"],
-    ["Colchas de Cama", 150, "🛌", "colha-de_cama.jpg"],
+    ["Colchas de Cama", 150, "🛌", "colcha-de_cama.jpg"],
     ["Kit de Toalhas de Banho e Mão", 200, "🛁", "toalha.jpg"]
   ]},
   { nome: "Mesa e Cozinha", itens: [
