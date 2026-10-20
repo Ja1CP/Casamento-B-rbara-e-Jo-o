@@ -30,7 +30,7 @@ const DADOS = {
    Para remover um item, apague a linha inteira. Para criar categoria, copie um bloco. */
 const CATEGORIAS = [
   { nome: "Casa e Lavanderia", itens: [
-    ["Tábua de Passar Roupas", 150, "assets/presentes/Tábua_de_passar.jpg"],
+    ["Tábua de Passar Roupas", 150, "Tábua_de_passar.jpg"],
     ["Ferro de Passar Roupas", 200, "👕"],
     ["Varal de Chão", 150, "🧺"],
     ["Aspirador de Pó Robô", 750, "🤖"],
