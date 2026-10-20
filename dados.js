@@ -32,17 +32,17 @@ const CATEGORIAS = [
   { nome: "Casa e Lavanderia", itens: [
     ["Tábua de Passar Roupas", 150, "👔", "tabua-de-passar.jpg"],
     ["Ferro de Passar Roupas", 200, "👕", "ferro_de_passar.jpg"],
-    ["Varal de Chão", 150, "🧺"],
-    ["Aspirador de Pó Robô", 750, "🤖"],
-    ["Mop Electrolux", 150, "🧹"],
-    ["Furadeira", 300, "🔧"]
+    ["Varal de Chão", 150, "🧺", "varal_de_chao.jpg"],
+    ["Aspirador de Pó Robô", 750, "🤖", "aspirador_robo.webp"],
+    ["Mop Electrolux", 150, "🧹", "mop_electrolux.jpg"],
+    ["Furadeira", 300, "🔧", "furadeira.jpg"]
   ]},
   { nome: "Quarto e Banho", itens: [
-    ["Espelho Grande para quarto", 200, "🪞"],
-    ["Duas Mesas de Cabeceira", 400, "🛏️"],
-    ["Jogo de Cama", 200, "🛏️"],
-    ["Colchas de Cama", 150, "🛌"],
-    ["Kit de Toalhas de Banho e Mão", 200, "🛁"]
+    ["Espelho Grande para quarto", 200, "🪞", "espelho_quarto.jpg"],
+    ["Duas Mesas de Cabeceira", 400, "🛏️", "mesa_de_cabeceira.webp"],
+    ["Jogo de Cama", 200, "🛏️", "jogo_de_cama.jpg"],
+    ["Colchas de Cama", 150, "🛌", "colha-de_cama.jpg"],
+    ["Kit de Toalhas de Banho e Mão", 200, "🛁", "toalha.jpg"]
   ]},
   { nome: "Mesa e Cozinha", itens: [
     ["Faqueiro", 300, "🍴"],
