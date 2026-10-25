@@ -158,3 +158,10 @@ a.chip:hover{color:var(--red);border-color:var(--gold)}
 .g{fill:none;stroke:#c29a45;stroke-width:1.3;stroke-linecap:round}
 .lg{fill:none;stroke:#8b0f14;stroke-width:1.6;stroke-linecap:round}
 .pag p.peq{font-size:.8rem;font-style:italic;margin-top:12px}
+
+
+/* Painéis de inspiração de looks do guia do convidado */
+.inspiracoes{display:grid;grid-template-columns:1fr;gap:22px;max-width:820px;margin:18px auto 0}
+.inspiracao{margin:0;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+.inspiracao img{display:block;width:100%;height:auto}
+@media(min-width:760px){.inspiracoes{gap:26px}}
