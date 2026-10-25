@@ -67,7 +67,7 @@ const CATEGORIAS = [
     ["Ventilador", 150, "🌀", "ventilador.jpg"]
   ]},
   { nome: "Sala e Eletrodomésticos", itens: [
-    ["Sofá", 2500, "🛋️", "asofa.jpg"],
+    ["Sofá", 2500, "🛋️", "sofa.jpg"],
     ["Rack", 1500, "📺", "rack.jpg"],
     ["Tevê", 2500, "📺", "televisao.jpg"],
     ["Fogão", 1600, "🔥", "fogao.jpg"],
