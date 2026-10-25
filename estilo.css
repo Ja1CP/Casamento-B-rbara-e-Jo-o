@@ -146,3 +146,15 @@ a.chip:hover{color:var(--red);border-color:var(--gold)}
 .pag p.bul{text-align:left;position:relative;padding-left:22px;max-width:680px}
 .pag p.bul::before{content:"";position:absolute;left:0;top:.65em;width:9px;height:9px;border-radius:50%;background:var(--gold)}
 .fim h2.script{font-size:clamp(4.4rem,18vw,7rem);margin:0}
+
+/* Looks (trajes) */
+.looks{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.look{margin:0}
+.ilus{position:relative;aspect-ratio:3/4;border:1px solid var(--line);background:linear-gradient(160deg,#fffdf8,#f7f0e1);display:grid;place-items:center;overflow:hidden}
+.ilus svg{width:80%;height:auto;max-height:92%}
+.ilus img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.look figcaption{font-size:.85rem;color:var(--red);margin-top:6px;line-height:1.3}
+.f{stroke:#8b0f14;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}
+.g{fill:none;stroke:#c29a45;stroke-width:1.3;stroke-linecap:round}
+.lg{fill:none;stroke:#8b0f14;stroke-width:1.6;stroke-linecap:round}
+.pag p.peq{font-size:.8rem;font-style:italic;margin-top:12px}
