@@ -30,50 +30,50 @@ const DADOS = {
    Para remover um item, apague a linha inteira. Para criar categoria, copie um bloco. */
 const CATEGORIAS = [
   { nome: "Casa e Lavanderia", itens: [
-    ["Tábua de Passar Roupas", 150, "👔", "assets/presentes/tabua-de-passar.jpg"],
-    ["Ferro de Passar Roupas", 200, "👕", "assets/presentes/ferro-de-passar.jpg"],
-    ["Varal de Chão", 150, "🧺", "assets/presentes/varal-de-chao.jpg"],
-    ["Aspirador de Pó Robô", 750, "🤖", "assets/presentes/aspirador-robo.jpg"],
-    ["Mop Electrolux", 150, "🧹", "assets/presentes/mop-electrolux.jpg"],
-    ["Furadeira", 300, "🔧", "assets/presentes/furadeira.jpg"]
+    ["Tábua de Passar Roupas", 150, "👔", "tabua-de-passar.jpg"],
+    ["Ferro de Passar Roupas", 200, "👕", "ferro-de-passar.jpg"],
+    ["Varal de Chão", 150, "🧺", "varal-de-chao.jpg"],
+    ["Aspirador de Pó Robô", 750, "🤖", "aspirador-robo.jpg"],
+    ["Mop Electrolux", 150, "🧹", "mop-electrolux.jpg"],
+    ["Furadeira", 300, "🔧", "furadeira.jpg"]
   ]},
   { nome: "Quarto e Banho", itens: [
-    ["Espelho Grande para quarto", 200, "🪞", "assets/presentes/espelho-quarto.jpg"],
-    ["Duas Mesas de Cabeceira", 400, "🛏️", "assets/presentes/mesas-de-cabeceira.jpg"],
-    ["Jogo de Cama", 200, "🛏️", "assets/presentes/jogo-de-cama.jpg"],
-    ["Colchas de Cama", 150, "🛌", "assets/presentes/colchas-de-cama.jpg"],
-    ["Kit de Toalhas de Banho e Mão", 200, "🛁", "assets/presentes/toalhas.jpg"]
+    ["Espelho Grande para quarto", 200, "🪞", "espelho-quarto.jpg"],
+    ["Duas Mesas de Cabeceira", 400, "🛏️", "mesas-de-cabeceira.jpg"],
+    ["Jogo de Cama", 200, "🛏️", "jogo-de-cama.jpg"],
+    ["Colchas de Cama", 150, "🛌", "colchas-de-cama.jpg"],
+    ["Kit de Toalhas de Banho e Mão", 200, "🛁", "toalhas.jpg"]
   ]},
   { nome: "Mesa e Cozinha", itens: [
-    ["Faqueiro", 300, "🍴", "assets/presentes/faqueiro.jpg"],
-    ["Kit de Copos", 100, "🥛", "assets/presentes/copos.jpg"],
-    ["Kit de Taças de Vinho", 100, "🍷", "assets/presentes/tacas-vinho.jpg"],
-    ["Kit de Assadeiras", 300, "🥘", "assets/presentes/assadeiras.jpg"],
-    ["Kit de Panelas", 600, "🍲", "assets/presentes/panelas.jpg"],
-    ["Jogo de Jantar", 700, "🍽️", "assets/presentes/jogo-de-jantar.jpg"],
-    ["Kit de Potes para mantimentos", 150, "🫙", "assets/presentes/potes-mantimentos.jpg"],
-    ["Kit de potes de vidro herméticos", 80, "🫙", "assets/presentes/potes-hermeticos.jpg"],
-    ["Porta temperos", 80, "🧂", "assets/presentes/temperos.jpg"]
+    ["Faqueiro", 300, "🍴", "faqueiro.jpg"],
+    ["Kit de Copos", 100, "🥛", "copos.jpg"],
+    ["Kit de Taças de Vinho", 100, "🍷", "tacas-vinho.jpg"],
+    ["Kit de Assadeiras", 300, "🥘", "assadeiras.jpg"],
+    ["Kit de Panelas", 600, "🍲", "panelas.jpg"],
+    ["Jogo de Jantar", 700, "🍽️", "jogo-de-jantar.jpg"],
+    ["Kit de Potes para mantimentos", 150, "🫙", "potes-mantimentos.jpg"],
+    ["Kit de potes de vidro herméticos", 80, "🫙", "potes-hermeticos.jpg"],
+    ["Porta temperos", 80, "🧂", "temperos.jpg"]
   ]},
   { nome: "Eletroportáteis", itens: [
-    ["Chaleira Elétrica", 150, "☕", "assets/presentes/chaleira-eletrica.jpg"],
-    ["Panela de pressão elétrica Electrolux", 600, "🍲", "assets/presentes/panela-pressao.jpg"],
-    ["Panela de arroz elétrica", 350, "🍚", "assets/presentes/panela-arroz.jpg"],
-    ["Air Fryer", 550, "🍟", "assets/presentes/air-fryer.jpg"],
-    ["Batedeira", 400, "🧁", "assets/presentes/batedeira.jpg"],
-    ["Cafeteira Cápsulas", 500, "☕", "assets/presentes/cafeteira.jpg"],
-    ["Multiprocessador", 400, "🥕", "assets/presentes/multiprocessador.jpg"],
-    ["Grill/Sanduicheira", 150, "🥪", "assets/presentes/sanduicheira.jpg"],
-    ["Ventilador", 150, "🌀", "assets/presentes/ventilador.jpg"]
+    ["Chaleira Elétrica", 150, "☕", "chaleira-eletrica.jpg"],
+    ["Panela de pressão elétrica Electrolux", 600, "🍲", "panela-pressao.jpg"],
+    ["Panela de arroz elétrica", 350, "🍚", "panela-arroz.jpg"],
+    ["Air Fryer", 550, "🍟", "air-fryer.jpg"],
+    ["Batedeira", 400, "🧁", "batedeira.jpg"],
+    ["Cafeteira Cápsulas", 500, "☕", "cafeteira.jpg"],
+    ["Multiprocessador", 400, "🥕", "multiprocessador.jpg"],
+    ["Grill/Sanduicheira", 150, "🥪", "sanduicheira.jpg"],
+    ["Ventilador", 150, "🌀", "ventilador.jpg"]
   ]},
   { nome: "Sala e Eletrodomésticos", itens: [
-    ["Sofá", 2500, "🛋️", "assets/presentes/sofa.jpg"],
-    ["Rack", 1500, "📺", "assets/presentes/rack.jpg"],
-    ["Tevê", 2500, "📺", "assets/presentes/televisao.jpg"],
-    ["Fogão", 1600, "🔥", "assets/presentes/fogao.jpg"],
-    ["Máquina de Lavar Louça", 3500, "🍽️", "assets/presentes/maquina-lavar-louca.jpg"],
-    ["Máquina de Lavar Roupa", 3500, "🧼", "assets/presentes/maquina-lavar-roupa.jpg"],
-    ["Geladeira", 4000, "🧊", "assets/presentes/geladeira.jpg"]
+    ["Sofá", 2500, "🛋️", "asofa.jpg"],
+    ["Rack", 1500, "📺", "rack.jpg"],
+    ["Tevê", 2500, "📺", "televisao.jpg"],
+    ["Fogão", 1600, "🔥", "fogao.jpg"],
+    ["Máquina de Lavar Louça", 3500, "🍽️", "maquina-lavar-louca.jpg"],
+    ["Máquina de Lavar Roupa", 3500, "🧼", "maquina-lavar-roupa.jpg"],
+    ["Geladeira", 4000, "🧊", "geladeira.jpg"]
   ]}
 ];
 
