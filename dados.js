@@ -30,50 +30,50 @@ const DADOS = {
    Para remover um item, apague a linha inteira. Para criar categoria, copie um bloco. */
 const CATEGORIAS = [
   { nome: "Casa e Lavanderia", itens: [
-    ["Tábua de Passar Roupas", 150, "👔", "tabua-de-passar.jpg"],
-    ["Ferro de Passar Roupas", 200, "👕"],
-    ["Varal de Chão", 150, "🧺"],
-    ["Aspirador de Pó Robô", 750, "🤖"],
-    ["Mop Electrolux", 150, "🧹"],
-    ["Furadeira", 300, "🔧"]
+    ["Tábua de Passar Roupas", 150, "👔", "assets/presentes/tabua-de-passar.jpg"],
+    ["Ferro de Passar Roupas", 200, "👕", "assets/presentes/ferro-de-passar.jpg"],
+    ["Varal de Chão", 150, "🧺", "assets/presentes/varal-de-chao.jpg"],
+    ["Aspirador de Pó Robô", 750, "🤖", "assets/presentes/aspirador-robo.jpg"],
+    ["Mop Electrolux", 150, "🧹", "assets/presentes/mop-electrolux.jpg"],
+    ["Furadeira", 300, "🔧", "assets/presentes/furadeira.jpg"]
   ]},
   { nome: "Quarto e Banho", itens: [
-    ["Espelho Grande para quarto", 200, "🪞"],
-    ["Duas Mesas de Cabeceira", 400, "🛏️"],
-    ["Jogo de Cama", 200, "🛏️"],
-    ["Colchas de Cama", 150, "🛌"],
-    ["Kit de Toalhas de Banho e Mão", 200, "🛁"]
+    ["Espelho Grande para quarto", 200, "🪞", "assets/presentes/espelho-quarto.jpg"],
+    ["Duas Mesas de Cabeceira", 400, "🛏️", "assets/presentes/mesas-de-cabeceira.jpg"],
+    ["Jogo de Cama", 200, "🛏️", "assets/presentes/jogo-de-cama.jpg"],
+    ["Colchas de Cama", 150, "🛌", "assets/presentes/colchas-de-cama.jpg"],
+    ["Kit de Toalhas de Banho e Mão", 200, "🛁", "assets/presentes/toalhas.jpg"]
   ]},
   { nome: "Mesa e Cozinha", itens: [
-    ["Faqueiro", 300, "🍴"],
-    ["Kit de Copos", 100, "🥛"],
-    ["Kit de Taças de Vinho", 100, "🍷"],
-    ["Kit de Assadeiras", 300, "🥘"],
-    ["Kit de Panelas", 600, "🍲"],
-    ["Jogo de Jantar", 700, "🍽️"],
-    ["Kit de Potes para mantimentos", 150, "🫙"],
-    ["Kit de potes de vidro herméticos", 80, "🫙"],
-    ["Porta temperos", 80, "🧂"]
+    ["Faqueiro", 300, "🍴", "assets/presentes/faqueiro.jpg"],
+    ["Kit de Copos", 100, "🥛", "assets/presentes/copos.jpg"],
+    ["Kit de Taças de Vinho", 100, "🍷", "assets/presentes/tacas-vinho.jpg"],
+    ["Kit de Assadeiras", 300, "🥘", "assets/presentes/assadeiras.jpg"],
+    ["Kit de Panelas", 600, "🍲", "assets/presentes/panelas.jpg"],
+    ["Jogo de Jantar", 700, "🍽️", "assets/presentes/jogo-de-jantar.jpg"],
+    ["Kit de Potes para mantimentos", 150, "🫙", "assets/presentes/potes-mantimentos.jpg"],
+    ["Kit de potes de vidro herméticos", 80, "🫙", "assets/presentes/potes-hermeticos.jpg"],
+    ["Porta temperos", 80, "🧂", "assets/presentes/temperos.jpg"]
   ]},
   { nome: "Eletroportáteis", itens: [
-    ["Chaleira Elétrica", 150, "☕"],
-    ["Panela de pressão elétrica Electrolux", 600, "🍲"],
-    ["Panela de arroz elétrica", 350, "🍚"],
-    ["Air Fryer", 550, "🍟"],
-    ["Batedeira", 400, "🧁"],
-    ["Cafeteira Cápsulas", 500, "☕"],
-    ["Multiprocessador", 400, "🥕"],
-    ["Grill/Sanduicheira", null, "🥪"],
-    ["Ventilador", null, "🌀"]
+    ["Chaleira Elétrica", 150, "☕", "assets/presentes/chaleira-eletrica.jpg"],
+    ["Panela de pressão elétrica Electrolux", 600, "🍲", "assets/presentes/panela-pressao.jpg"],
+    ["Panela de arroz elétrica", 350, "🍚", "assets/presentes/panela-arroz.jpg"],
+    ["Air Fryer", 550, "🍟", "assets/presentes/air-fryer.jpg"],
+    ["Batedeira", 400, "🧁", "assets/presentes/batedeira.jpg"],
+    ["Cafeteira Cápsulas", 500, "☕", "assets/presentes/cafeteira.jpg"],
+    ["Multiprocessador", 400, "🥕", "assets/presentes/multiprocessador.jpg"],
+    ["Grill/Sanduicheira", 150, "🥪", "assets/presentes/sanduicheira.jpg"],
+    ["Ventilador", 150, "🌀", "assets/presentes/ventilador.jpg"]
   ]},
   { nome: "Sala e Eletrodomésticos", itens: [
-    ["Sofá", null, "🛋️"],
-    ["Rack", null, "📺"],
-    ["Tevê", 2000, "📺"],
-    ["Fogão", 1600, "🔥"],
-    ["Máquina de Lavar Louça", 4000, "🍽️"],
-    ["Máquina de Lavar Roupa", 3500, "🧼"],
-    ["Geladeira", 4500, "🧊"]
+    ["Sofá", 2500, "🛋️", "assets/presentes/sofa.jpg"],
+    ["Rack", 1500, "📺", "assets/presentes/rack.jpg"],
+    ["Tevê", 2500, "📺", "assets/presentes/televisao.jpg"],
+    ["Fogão", 1600, "🔥", "assets/presentes/fogao.jpg"],
+    ["Máquina de Lavar Louça", 3500, "🍽️", "assets/presentes/maquina-lavar-louca.jpg"],
+    ["Máquina de Lavar Roupa", 3500, "🧼", "assets/presentes/maquina-lavar-roupa.jpg"],
+    ["Geladeira", 4000, "🧊", "assets/presentes/geladeira.jpg"]
   ]}
 ];
 
@@ -117,5 +117,35 @@ const LINKS_CARTAO = {
   "Varal de Chão": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-TDd4ugD3sj-150,00",
   "Aspirador de Pó Robô": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTgtSQ-Ob2DlhrTWf-750,00",
   "Mop Electrolux": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-9VI5cq6v9y-150,00",
-  "Furadeira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-AlQ5QiFx5t-300,00"
+  "Furadeira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-AlQ5QiFx5t-300,00",
+  "Espelho Grande para quarto": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-2BEZJbmc20-200,00",
+  "Duas Mesas de Cabeceira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTctSQ-ILu7dzSqJl-400,00",
+  "Jogo de Cama": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-ATB2XZZJPl-200,00",
+  "Colchas de Cama": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTMtSQ-5j2QLDQZRf-150,00",
+  "Kit de Toalhas de Banho e Mão": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTQtSQ-jqjn52YNXq-200,00",
+  "Faqueiro": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-YcrqHgvccn-300,00",
+  "Kit de Copos": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTMtSQ-qgK0EXuM3F-100,00",
+  "Kit de Taças de Vinho": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTMtSQ-jDnXhhegBl-100,00",
+  "Kit de Assadeiras": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-9IUx1r0crS-300,00",
+  "Kit de Panelas": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTctSQ-35ZI8eRklY-600,00",
+  "Jogo de Jantar": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTctSQ-JF5xonRrE8-700,00",
+  "Kit de Potes para mantimentos": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTMtSQ-OHRSZ1CIxc-150,00",
+  "Kit de potes de vidro herméticos": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTItSQ-lGsIe0mi7K-80,00",
+  "Porta temperos": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTItSQ-80,00",
+  "Chaleira Elétrica": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTMtSQ-71ZDGcMXtb-150,00",
+  "Panela de pressão elétrica Electrolux": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-OO03i52tPn-600,00",
+  "Panela de arroz elétrica": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTQtSQ-MCn8QJBWQ1-350,00",
+  "Air Fryer": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-mXaN80y2XK-550,00",
+  "Batedeira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-gxNDqiI6r2-400,00",
+  "Cafeteira Cápsulas": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTYtSQ-8mfw8l8oyk-500,00",
+  "Multiprocessador": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTctSQ-Tu4hwHwRoX-400,00",
+  "Grill/Sanduicheira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-IoF6I1oaqp-150,00",
+  "Ventilador": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLTUtSQ-0ZNK8bRREj-150,00",
+  "Sofá": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-HUN3ch5b8x-2500,00",
+  "Rack": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-o5UxZXAm7U-1500,00",
+  "Tevê": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-BvyxQBEdM2-2500,00",
+  "Fogão": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-sW1hwNo1Od-1600,00",
+  "Máquina de Lavar Louça": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-xoEdi1iam5-3500,00",
+  "Máquina de Lavar Roupa": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-XdRNFc5GeP-3500,00",
+  "Geladeira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-TNeyWKBlu3-4000,00"
 };
