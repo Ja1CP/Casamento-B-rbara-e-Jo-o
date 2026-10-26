@@ -21,7 +21,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:"Playfair Displ
 .conteudo{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;padding:28px 0}
 .mono{width:clamp(54px,13vw,78px);aspect-ratio:357/520;margin-bottom:18px;background:var(--img-mono) no-repeat center/contain}
 .hero .script{font-size:clamp(4.4rem,20vw,8rem)}
-.amp{display:flex;align-items:center;gap:14px;width:min(360px,82%);margin:2px 0}
+.amp{display:flex;align-items:center;gap:14px;width:min(360px,82%);margin:2px auto}
 .amp::before,.amp::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,transparent,#c29a45 40%,#e8d08b)}.amp::after{transform:scaleX(-1)}
 .amp span{font-size:2rem;line-height:1;background:var(--ouro);-webkit-background-clip:text;background-clip:text;color:transparent}
 .date{color:var(--red);font-size:1.1rem;margin:30px 0 8px;letter-spacing:.02em}
@@ -123,7 +123,7 @@ a.chip:hover{color:var(--red);border-color:var(--gold)}
 .pag .assin{font-family:var(--script);font-size:2.6rem;margin:6px auto 0}
 .capa .gt,.fim .gt{font-size:clamp(2rem,9vw,3.4rem);font-weight:500;color:var(--red);letter-spacing:-.02em;line-height:1}
 .capa .mono{margin:0 auto 14px;width:clamp(60px,14vw,84px)}
-.capa .nomes{font-size:clamp(2.6rem,10vw,4rem);margin:4px auto}
+.capa .nomes{font-size:clamp(2.6rem,10vw,4rem);margin:4px auto;text-align:center;width:100%}
 .capa .data{font-weight:600;letter-spacing:.06em}
 .indice{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:6px 16px 0}
 .sub{position:relative;font-style:italic;font-size:1.7rem;color:var(--red);margin:26px auto 14px;padding:12px 0;max-width:420px}
