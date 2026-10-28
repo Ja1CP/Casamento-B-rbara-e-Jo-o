@@ -1,0 +1,6 @@
+/* Presentes já dados (marcação manual em dados.js > JA_PRESENTEADOS) */
+.aviso{text-align:center;color:var(--muted);font-size:.9rem;font-style:italic;margin:0 auto 18px;max-width:520px}
+.card.dado{opacity:.6}
+.card.dado .thumb img{filter:grayscale(.7)}
+.card.dado:hover{transform:none;box-shadow:none;border-color:var(--line)}
+.card.dado button{background:transparent;color:var(--muted);border:1px solid var(--line);cursor:default}

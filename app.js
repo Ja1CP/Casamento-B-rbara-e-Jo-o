@@ -62,6 +62,13 @@
     setTimeout(() => e.target.textContent = "Copiar código Pix", 2000);
   };
 
+  // Presentes já dados (lista em dados.js)
+  const JA = new Set(typeof JA_PRESENTEADOS !== "undefined" ? JA_PRESENTEADOS : []);
+  const ja = n => (JA.has(n) ? 1 : 0);
+  const todos = new Set(CATEGORIAS.flatMap(c => c.itens.map(i => i[0])));
+  JA.forEach(n => { if (!todos.has(n)) console.warn("JA_PRESENTEADOS: nome não encontrado na lista:", n); });
+  if (JA.size) { const av = $("aviso"); if (av) av.hidden = false; }
+
   // Lista com filtros
   let filtro = -1;
   const chips = $("chips"), lista = $("lista"), busca = $("busca");
@@ -80,7 +87,7 @@
     lista.innerHTML = ""; let n = 0;
     CATEGORIAS.forEach((cat, ci) => {
       if (filtro >= 0 && filtro !== ci) return;
-      const its = cat.itens.filter(it => it[0].toLowerCase().includes(q));
+      const its = cat.itens.filter(it => it[0].toLowerCase().includes(q)).sort((x, y) => ja(x[0]) - ja(y[0]));
       if (!its.length) return;
       n += its.length;
       const h = document.createElement("div"); h.className = "cat"; h.textContent = cat.nome; lista.appendChild(h);
@@ -92,7 +99,9 @@
         d.querySelector("h3").textContent = nome;
         const th = d.querySelector(".thumb"); th.textContent = icone || "🎁";
         if (foto) { const im = new Image(); im.alt = nome; im.loading = "lazy"; im.onerror = () => im.remove(); im.src = foto; th.appendChild(im); }
-        d.querySelector("button").onclick = () => abrir(nome, preco);
+        const bt = d.querySelector("button");
+        if (JA.has(nome)) { d.classList.add("dado"); bt.textContent = "Já presenteado 💛"; bt.disabled = true; }
+        else bt.onclick = () => abrir(nome, preco);
         g.appendChild(d);
       });
       lista.appendChild(g);

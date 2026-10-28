@@ -149,3 +149,13 @@ const LINKS_CARTAO = {
   "Máquina de Lavar Roupa": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-XdRNFc5GeP-3500,00",
   "Geladeira": "https://link.infinitepay.io/joao-vitor-g3f/VC1DLUEtSQ-TNeyWKBlu3-4000,00"
 };
+
+/* PRESENTES JÁ DADOS
+   Quando um presente for pago, escreva o NOME EXATO dele aqui (igual ao da lista acima), entre aspas e com vírgula.
+   O card passa a mostrar "Já presenteado" e o botão de pagamento some.
+   Para voltar a liberar o presente, apague a linha. Exemplo:
+     "Air Fryer",
+     "Geladeira",                                                                         */
+const JA_PRESENTEADOS = [
+  // "Air Fryer",
+];
