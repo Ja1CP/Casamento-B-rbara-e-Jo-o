@@ -157,5 +157,5 @@ const LINKS_CARTAO = {
      "Air Fryer",
      "Geladeira",                                                                         */
 const JA_PRESENTEADOS = [
-   "Air Fryer",
+   //"Air Fryer",
 ];
