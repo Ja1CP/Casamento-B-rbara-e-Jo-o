@@ -119,7 +119,7 @@ a.chip:hover{color:var(--red);border-color:var(--gold)}
 .pag p{max-width:640px;margin:0 auto 14px;color:var(--red)}
 .pag h2.script{font-size:clamp(3.4rem,13vw,5rem);margin:0 0 14px}
 .pag h1.script{font-size:clamp(4.4rem,18vw,7rem)}
-.pag .ola{font-family:var(--script);font-size:2.4rem;line-height:1.1;margin:0}
+.pag .ola{font-family:var(--script);font-size:2.4rem;line-height:1.1;margin:0 auto;text-align:center}
 .pag .assin{font-family:var(--script);font-size:2.6rem;margin:6px auto 0}
 .capa .gt,.fim .gt{font-size:clamp(2rem,9vw,3.4rem);font-weight:500;color:var(--red);letter-spacing:-.02em;line-height:1}
 .capa .mono{margin:0 auto 14px;width:clamp(60px,14vw,84px)}
