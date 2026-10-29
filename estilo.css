@@ -18,9 +18,9 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:"Playfair Displ
 .meio.t{top:-9px;left:50%;transform:translateX(-50%)}.meio.b{bottom:-9px;left:50%;transform:translateX(-50%)}
 .meio.l{left:-43px;top:50%;transform:translateY(-50%) rotate(90deg)}.meio.r{right:-43px;top:50%;transform:translateY(-50%) rotate(90deg)}
 .marca{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);height:clamp(320px,62vw,540px);aspect-ratio:357/520;background:var(--img-mono) no-repeat center/contain;opacity:.11;pointer-events:none}
-.conteudo{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;padding:28px 0}
+.conteudo{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;padding:28px 0;width:100%;box-sizing:border-box}
 .mono{width:clamp(54px,13vw,78px);aspect-ratio:357/520;margin-bottom:18px;background:var(--img-mono) no-repeat center/contain}
-.hero .script{font-size:clamp(4.4rem,20vw,8rem)}
+.hero .script{font-size:clamp(4.4rem,20vw,8rem);width:100%;text-align:center}
 .amp{display:flex;align-items:center;gap:14px;width:min(360px,82%);margin:2px auto}
 .amp::before,.amp::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,transparent,#c29a45 40%,#e8d08b)}.amp::after{transform:scaleX(-1)}
 .amp span{font-size:2rem;line-height:1;background:var(--ouro);-webkit-background-clip:text;background-clip:text;color:transparent}
