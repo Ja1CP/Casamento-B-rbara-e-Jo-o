@@ -123,7 +123,12 @@ a.chip:hover{color:var(--red);border-color:var(--gold)}
 .pag .assin{font-family:var(--script);font-size:2.6rem;margin:6px auto 0}
 .capa .gt,.fim .gt{font-size:clamp(2rem,9vw,3.4rem);font-weight:500;color:var(--red);letter-spacing:-.02em;line-height:1}
 .capa .mono{margin:0 auto 14px;width:clamp(60px,14vw,84px)}
-.capa .nomes{font-size:clamp(2.6rem,10vw,4rem);margin:4px auto;text-align:center;width:100%}
+.capa .nomes{
+  font-size: clamp(2.6rem, 10vw, 4rem);
+  margin: 4px auto;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;}
 .capa .data{font-weight:600;letter-spacing:.06em}
 .indice{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:6px 16px 0}
 .sub{position:relative;font-style:italic;font-size:1.7rem;color:var(--red);margin:26px auto 14px;padding:12px 0;max-width:420px}
