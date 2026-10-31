@@ -157,5 +157,5 @@ const LINKS_CARTAO = {
      "Air Fryer",
      "Geladeira",                                                                         */
 const JA_PRESENTEADOS = [
-   "Ferro de Passar Roupas", "Kit de Copos", "Kit de Panelas", "Kit de Assadeiras"
+   "Ferro de Passar Roupas", "Kit de Copos", "Kit de Panelas", "Kit de Assadeiras", "Panela de pressão elétrica Electrolux"
 ];
